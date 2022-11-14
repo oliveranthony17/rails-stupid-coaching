@@ -1,0 +1,14 @@
+<h2>Stupid Coaching</h2>
+<br>
+
+<blockquote class="blockquote"><%= @question %></blockquote>
+<figcaption class="blockquote-footer"><em>You</em></figcaption>
+<br>
+
+<blockquote class="blockquote"><%= @answer %></blockquote>
+<figcaption class="blockquote-footer"><em>Coach</em></figcaption>
+<br>
+
+<button type="button" class="btn btn-primary">
+  <%= link_to "Ask a new question", ask_path, class: "text-decoration-none text-white" %>
+</button>
